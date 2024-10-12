@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --accent-color: #138190;
+}
+
+body {
+  @apply bg-gray-900 text-gray-100;
+}
+
+.btn {
+  @apply px-4 py-2 rounded-md transition-colors duration-200;
+}
+
+.btn-primary {
+  @apply bg-[var(--accent-color)] text-white hover:bg-[#0f6b78];
+}
